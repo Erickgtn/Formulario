@@ -16,10 +16,14 @@ fieldset{
     border: 0;
 }
 body{
+    background-image: url(../Formulario/natureza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     background-color: #f0f8ff;
     font-family: sans-serif;
     font-size: 1em;
-    color: #0600ba;
+    color: #000000;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -32,7 +36,7 @@ input,select,textarea,button{
 }
 .campo label{
     margin-bottom: 0.2em;
-    color:  #0600ba;
+    color:  #000000;
     display: block;
 }
 fieldset.grupo .campo{
@@ -41,7 +45,7 @@ fieldset.grupo .campo{
 }
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.2em;
-    border: 1px solid #0600ba;
+    border: 1px solid #000000;
     box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
     display: block;
 }
@@ -49,7 +53,9 @@ fieldset.grupo .campo{
 .campo select option{
     padding-left: 1em;
 }
-
+.exp{
+    color: #00ff00;
+}
 .campo input:focus, .campo select:focus textarea:focus{
     background: #e0e0f8;
 }
