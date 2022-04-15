@@ -28,6 +28,12 @@ body{
     margin-top: 2%;
     justify-content: center;
 }
+.form{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-position: center;
+}
 input,select,textarea,button{
     border-radius: 5px;
 }
